@@ -64,11 +64,59 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-family: 'Rubik', sans-serif;
+
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+
+
+/*----------------            RESET ABOVE------------------------------------------*/
+
+
+
+ .topNav{ 
+    display: flex;
+    width: 100%;
+    background: white;
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+}
+
+.topNav > div > nav {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.topNav > div > nav> a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+h2 {
+    padding-top: 10px;
 }
 
 .top-content {
@@ -84,6 +132,31 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.topContentAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px; 
+      
+}
+.aboutText {
+    width: 100%;
+    padding: 20px 20px 5px 20px;
+}
+.aboutText p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +185,76 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
+.middleContentAbout {
+    display:flex;
+    width:800px;
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    height : 950px;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.card {
+    display:flex;
+    width: 46%;
+    height: 440px;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    align-content: flex-start;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
+button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
+/*----------------------------------------------------------*/
+
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +268,30 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+.bottomContentAbout{
+     
+        width: 100%;
+        padding: 20px 20px 10px 20px;
+    
+    
+}
+.bottomContentAbout p{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+.bottomContentAbout h2{
+    font-weight: 600;
+}
+
+/*----------------------------------------------------------*/
+
+
+
+
 
 footer {
     width: 100%;
