@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    font-family: 'Rubik', sans-serif;
+
 }
 
 .container {
@@ -74,7 +76,7 @@ p {
 
 
 
-/*----------------------------------------------------------*/
+/*----------------            RESET ABOVE------------------------------------------*/
 
 
 
@@ -109,9 +111,13 @@ p {
 
 /*----------------------------------------------------------*/
 
-
-
-
+h1{
+    font-size: 18px;
+    font-weight: 600;
+}
+h2 {
+    padding-top: 10px;
+}
 
 .top-content {
     display: flex;
@@ -127,6 +133,22 @@ p {
     padding-bottom: 20px;  
 }
 
+.topContentAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px; 
+      
+}
+.aboutText {
+    width: 100%;
+    padding: 20px 20px 5px 20px;
+}
+.aboutText p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+}
 
 
 /*----------------------------------------------------------*/
@@ -194,7 +216,39 @@ p {
     background-color: dodgerblue;
 }
 
+.middleContentAbout {
+    display:flex;
+    width:800px;
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    height : 950px;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+.card {
+    display:flex;
+    width: 46%;
+    height: 440px;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    align-content: flex-start;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 15px;
 
+}
+
+button{
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+}
 /*----------------------------------------------------------*/
 
 
@@ -216,8 +270,22 @@ p {
 }
 
 
-
-
+.bottomContentAbout{
+     
+        width: 100%;
+        padding: 20px 20px 10px 20px;
+    
+    
+}
+.bottomContentAbout p{
+        width: 100%;
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+.bottomContentAbout h2{
+    font-weight: 600;
+}
 
 /*----------------------------------------------------------*/
 
