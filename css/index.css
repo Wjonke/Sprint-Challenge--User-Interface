@@ -71,6 +71,48 @@ p {
     margin: 0 auto;
 }
 
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+ .topNav{ 
+    display: flex;
+    width: 100%;
+    background: white;
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+}
+
+.topNav > div > nav {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.topNav > div > nav> a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +126,15 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +163,44 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
+
+/*----------------------------------------------------------*/
+
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +214,16 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+
 
 footer {
     width: 100%;
